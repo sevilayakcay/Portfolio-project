@@ -1,0 +1,15 @@
+/*Art&Design Codes*/
+
+.main-art-gallery{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+   
+}
+.gallery-box{
+   height: 200px;
+   width: 200px;
+   border-radius: 20px;
+   box-shadow:0 4px 8px  #e1c7ac;
+} 

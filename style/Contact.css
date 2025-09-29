@@ -1,0 +1,73 @@
+/* CONTACT CODES*/
+.form-container{
+    display: grid;
+    background-color: rgb(224, 191, 164);
+    height: 400px;
+    width: 60%;
+    place-items: center;
+    margin: 0 auto;
+    border-radius: 20px;
+}
+.form-input{
+    height: 40px;
+    width: 100%;
+}
+input{
+   border: 0 solid;
+   border-radius: 10px;
+   height: 35px;
+}
+
+.submit{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: 45%;
+}
+
+button:hover{
+    background-color: rgb(227, 198, 178);
+    color: rgb(65, 40, 33);
+    box-shadow: 4px 4px 8px rgb(98, 77, 54);
+    border-radius: 10px;
+}
+button{
+    background-color: rgb(98, 76, 65);
+    color: azure;
+    border: 0 solid;
+    height: 30px;
+    width: 60%;
+    border-radius: 10px;
+ }
+textarea{
+    border: 0 solid;
+    height: 150px;
+    width: 100%;
+    resize: none;
+    border-radius:10px;
+}
+input:focus,
+textarea:focus,
+button:focus {             
+ outline-color: rgb(255, 187, 127);  
+}
+/*Art&Design Codes*/
+
+.main-art-gallery{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+   
+}
+.gallery-box{
+   height: 200px;
+   width: 200px;
+   border-radius: 20px;
+   box-shadow:0 4px 8px  #e1c7ac;
+}
+@media  (max-width: 450px){
+    .form-container{
+        width: 80%;
+}
+}
