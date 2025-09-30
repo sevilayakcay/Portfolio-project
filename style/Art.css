@@ -1,15 +1,13 @@
-/*Art&Design Codes*/
-
 .main-art-gallery{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 20px;
-   
+    gap: 50px;
+    margin-top: 20px;
 }
-.gallery-box{
+.art-gallery-boxes{
    height: 200px;
    width: 200px;
    border-radius: 20px;
-   box-shadow:0 4px 8px  #e1c7ac;
+   box-shadow:5px 6px 10px  #dfab72;
 } 
