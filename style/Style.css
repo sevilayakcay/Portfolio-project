@@ -56,12 +56,10 @@ a:hover{
 
 .sidebar{
     grid-area: sidebar;
-    background-color: rgba(255, 212, 159, 0.5);
-    background-image: url(/img/sidebar-background.png);
+    background-color: rgba(121, 104, 84, 0.5);
     background-size: cover;
     background-position: center;
     border-radius: 30px;
-    
     place-items: center;
     align-content: center;
 }
